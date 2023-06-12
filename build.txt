@@ -1,0 +1,3 @@
+displayName = Hypixel Skyblock Stuff
+author = Gapple
+version = 1.0

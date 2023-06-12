@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "f8Y7I6uGottuB4fN+3uAinCey2lQv9YvMIj7Q0rcBcRDsnWycLyN8QEJxcs2Ja2RnsL1l/uN2I6A/4d4A75f0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kiran\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\HypixelSkyblockStuff\\HypixelSkyblockStuff.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kiran\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
