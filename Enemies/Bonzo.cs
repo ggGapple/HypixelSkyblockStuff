@@ -30,7 +30,7 @@ namespace HypixelSkyblockStuff.Enemies
         public override void SetDefaults() //bonzo defaults
         {
             NPC.width = 32; //sprite width
-            NPC.knockBackResist = 0.5f; //how much it resists kb
+            NPC.knockBackResist = 0.35f; //how much it resists kb
             NPC.height = 50; //sprite height
             Music = MusicID.Boss5; //music to play while it's alive
             NPC.scale = 1.5f; //to make it a little bigger
