@@ -9,12 +9,6 @@ namespace HypixelSkyblockStuff.Items
     //griffin pet summon item
     public class Griffin : ModItem
     {
-        public override void SetStaticDefaults() //name and tooltip
-        {
-            DisplayName.SetDefault("Griffin Claw");
-            Tooltip.SetDefault("Summons a Griffin pet that buffs the player");
-        }
-
         public override void SetDefaults() //item data
         {
             Item.shoot = ModContent.ProjectileType<Projectiles.Pets.Griffin>(); //spawn a griffin

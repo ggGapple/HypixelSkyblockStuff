@@ -8,8 +8,6 @@ namespace HypixelSkyblockStuff.Buffs
     {
         public override void SetStaticDefaults() //name, tooltip, don't show duration of buff left, vanity pet
         {
-            DisplayName.SetDefault("Blue Whale");
-            Description.SetDefault("Permanent lifeforce and night vision, gives defense depending on how much health you have");
             Main.buffNoTimeDisplay[Type] = true;
             Main.vanityPet[Type] = true;
             

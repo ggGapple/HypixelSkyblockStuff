@@ -8,11 +8,6 @@ namespace HypixelSkyblockStuff.Armor
     //prevents player from dying and gives temporary strength boost
     internal class BonzoMask : ModItem
     {
-        public override void SetStaticDefaults() //tooltip and name
-        {
-            Tooltip.SetDefault("10% damage\n10% crit chance\nSaves the player from death and gives temporary damage boost");
-            DisplayName.SetDefault("Bonzo Mask");
-        }
         public override void SetDefaults() //item data
         {
             Item.defense = 10;

@@ -8,12 +8,6 @@ namespace HypixelSkyblockStuff.Armor
     //increases move and jump speed
     internal class TarantulaBoots : ModItem
     {
-        public override void SetStaticDefaults() //tooltip and name
-        {
-
-            Tooltip.SetDefault("Increases movement and jump speed");
-            DisplayName.SetDefault("Tarantula Boots");
-        }
         public override void SetDefaults() //item data
         {
             Item.defense = 8;

@@ -10,12 +10,6 @@ namespace HypixelSkyblockStuff.Items
 	{
 		public int timer; //timer
 		public bool justJoinedWorld = true; //if they just joined, this variable bypasses the cooldown
-        public override void SetStaticDefaults() //name and tooltip
-		{
-			DisplayName.SetDefault("Aspect Of The End"); 
-			Tooltip.SetDefault("A powerful sword that allows the user to teleport by right clicking");
-
-		}
         public override void UpdateInventory(Player player) //I just use this method because it runs every tick, so I can update my timer
         {
 			timer++; //increment timer

@@ -10,7 +10,6 @@ namespace HypixelSkyblockStuff.Projectiles.Pets
     {
         public override void SetStaticDefaults() //name, frames in sprite sheet, and is a pet
         {
-            DisplayName.SetDefault("Blue Whale"); 
             Main.projFrames[Projectile.type] = 1;
             Main.projPet[Projectile.type] = true;
         }

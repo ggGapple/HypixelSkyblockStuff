@@ -10,11 +10,6 @@ namespace HypixelSkyblockStuff.Items
 	public class EndStoneRepeater : ModItem
 	{
 
-        public override void SetStaticDefaults() //name and tooltip
-		{
-			DisplayName.SetDefault("End Stone Repeater");
-			Tooltip.SetDefault("A powerful repeater that allows the user to convert mana to damage by right clicking");
-		}
 
 		public override void SetDefaults() //item data
 		{

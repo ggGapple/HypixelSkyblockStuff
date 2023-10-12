@@ -1,0 +1,108 @@
+Items: {
+	AspectOfTheEnd: {
+		DisplayName: Aspect of the End
+		Tooltip: A powerful sword that allows the user to teleport by right clicking
+	}
+
+	BlueWhale: {
+		DisplayName: Whale Sushi
+		Tooltip: Summons a Blue Whale pet that buffs the player
+	}
+
+	BonzoStaff: {
+		DisplayName: Bonzo Staff
+		Tooltip: Shoots exploding balloons
+	}
+
+	ClownHorn: {
+		DisplayName: Clown Horn
+		Tooltip: Looks heavily used, almost as if somebody lost it...
+	}
+
+	EndStoneBow: {
+		DisplayName: End Stone Bow
+		Tooltip: A powerful bow that allows the user to convert mana to damage by right clicking
+	}
+
+	EndStoneRepeater: {
+		DisplayName: End Stone Repeater
+		Tooltip: A powerful repeater that allows the user to convert mana to damage by right clicking
+	}
+
+	Griffin: {
+		DisplayName: Griffin Claw
+		Tooltip: Summons a Griffin pet that buffs the player
+	}
+
+	Hyperion: {
+		DisplayName: Hyperion
+		Tooltip: Allows the user to teleport and creates a small explosion
+	}
+
+	BoneHelmet: {
+		DisplayName: Bone Helmet
+		Tooltip: ""
+	}
+
+	BonzoMask: {
+		DisplayName: Bonzo Mask
+		Tooltip: ""
+	}
+
+	SharkChestplate: {
+		DisplayName: Shark Chestplate
+		Tooltip: ""
+	}
+
+	TarantulaBoots: {
+		DisplayName: Tarantula Boots
+		Tooltip: ""
+	}
+}
+
+Armor: {
+	BoneHelmet: {
+		DisplayName: Bone Helmet
+		Tooltip: 5% damage\nIncreases defense at lower health
+	}
+
+	BonzoMask: {
+		DisplayName: Bonzo Mask
+		Tooltip: 10% damage\n10% crit chance\nSaves the player from death and gives temporary damage boost
+	}
+
+	SharkChestplate: {
+		DisplayName: Shark Chestplate
+		Tooltip: 5% damage\n10% critical strike chance\nGives defensive barrier at full health
+	}
+
+	TarantulaBoots: {
+		DisplayName: Tarantula Boots
+		Tooltip: Increases movement and jump speed
+	}
+}
+
+Buffs: {
+	BlueWhale: {
+		DisplayName: Blue Whale
+		Description: Permanent lifeforce and night vision, gives defense depending on how much health you have
+	}
+
+	Griffin: {
+		DisplayName: Griffin
+		Description: Permanent wrath, night vision, and regeneration, +15% damage when above 85% health
+	}
+}
+
+Projectiles: {
+	ClownBalloon.DisplayName: Clown Balloon
+	ClownBalloon2.DisplayName: Clown Balloon2
+	ClownBalloon3.DisplayName: Clown Balloon3
+	ClownBalloon4.DisplayName: Clown Balloon4
+	ClownBalloon5.DisplayName: Clown Balloon5
+	Griffin.DisplayName: Griffin
+	BlueWhale.DisplayName: Blue Whale
+}
+
+Enemies.Bonzo.DisplayName: Bonzo
+NPCs.Bonzo.DisplayName: Bonzo

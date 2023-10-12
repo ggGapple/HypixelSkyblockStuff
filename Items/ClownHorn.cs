@@ -11,12 +11,6 @@ namespace HypixelSkyblockStuff.Items
 	//bonzo summon item
 	public class ClownHorn : ModItem
 	{
-		public override void SetStaticDefaults() //name, tooltip
-		{
-			DisplayName.SetDefault("Clown Horn"); 
-			Tooltip.SetDefault("Looks heavily used, almost as if somebody lost it...");
-
-		}
 
 		public override void SetDefaults() //item data
 		{

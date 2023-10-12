@@ -9,8 +9,6 @@ namespace HypixelSkyblockStuff.Buffs
         //corresponding buff for the Griffin pet
         public override void SetStaticDefaults() //name, tooltip, don't display time left, vanity
         {
-            DisplayName.SetDefault("Griffin");
-            Description.SetDefault("Permanent wrath, night vision, and regeneration, +15% damage when above 85% health");
             Main.buffNoTimeDisplay[Type] = true;
             Main.vanityPet[Type] = true;
             

@@ -8,12 +8,6 @@ namespace HypixelSkyblockStuff.Armor
     //bone helmet is a pre-mech item that increases defense at lower health
     internal class BoneHelmet : ModItem
     {
-        public override void SetStaticDefaults() //name and tooltip
-        {
-
-            Tooltip.SetDefault("5% damage\nIncreases defense at lower health");
-            DisplayName.SetDefault("Bone Helmet");
-        }
         public override void SetDefaults() //setting item data
         {
             Item.defense = 10;
@@ -45,7 +39,8 @@ namespace HypixelSkyblockStuff.Armor
         public override void UpdateArmorSet(Player player) //if you have the full set
         {
             player.setBonus = "+35% defense and +35% damage"; //tooltip
-            player.statDefense = (int)((double)player.statDefense * 1.35); //increase defense by 35%
+            player.statDefense*=27; //increase defense by 35%
+            player.statDefense /= 20;
             player.GetDamage(DamageClass.Generic) +=0.35f; //increase damage by 35%
 
         }

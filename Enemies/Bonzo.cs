@@ -21,11 +21,6 @@ namespace HypixelSkyblockStuff.Enemies
         public int AITimer = timers[0];
         public int AITimer2 = timers[1];
 
-        public override void SetStaticDefaults() //name is bonzo
-        {
-            DisplayName.SetDefault("Bonzo");
-
-        }
 
         public override void SetDefaults() //bonzo defaults
         {

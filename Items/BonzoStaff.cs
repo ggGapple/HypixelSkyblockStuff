@@ -13,8 +13,6 @@ namespace HypixelSkyblockStuff.Items
 	{
         public override void SetStaticDefaults() //name, tooltip, and is a staff
 		{
-			DisplayName.SetDefault("Bonzo Staff"); 
-			Tooltip.SetDefault("Shoots exploding balloons");
 			Item.staff[Item.type] = true;
 		}
 

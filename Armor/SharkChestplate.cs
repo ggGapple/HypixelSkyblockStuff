@@ -8,12 +8,6 @@ namespace HypixelSkyblockStuff.Armor
     //provides a barrier at full health that makes the player take no damage for 1 hit
     internal class SharkChestplate : ModItem
     {
-        public override void SetStaticDefaults() //name and tooltip
-        {
-
-            Tooltip.SetDefault("5% damage\n10% critical strike chance\nGives defensive barrier at full health");
-            DisplayName.SetDefault("Shark Chestplate");
-        }
         public override void SetDefaults() //item data
         {
             Item.defense = 10;

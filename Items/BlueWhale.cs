@@ -10,11 +10,6 @@ namespace HypixelSkyblockStuff.Items
     //corresponding summon item for blue whale pet
     public class BlueWhale : ModItem
     {
-        public override void SetStaticDefaults() //name and tooltip
-        {
-            DisplayName.SetDefault("Whale Sushi");
-            Tooltip.SetDefault("Summons a Blue Whale pet that buffs the player");
-        }
 
         public override void SetDefaults() //item data
         {

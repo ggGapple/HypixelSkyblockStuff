@@ -8,12 +8,6 @@ namespace HypixelSkyblockStuff.Items
 	//post plantera sword that teleports on right click and explodes
 	public class Hyperion : ModItem
 	{
-        public override void SetStaticDefaults() //name and tooltip
-		{
-			DisplayName.SetDefault("Hyperion");
-			Tooltip.SetDefault("Teleports and creates a minor explosion on right click");
-
-		}
 
 		public override bool AltFunctionUse(Player player) //allow right click
 		{

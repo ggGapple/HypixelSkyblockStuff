@@ -11,11 +11,6 @@ namespace HypixelSkyblockStuff.Items
 	{
 		public int timer; //timer
 		public bool justJoined = true; //if they just joined
-        public override void SetStaticDefaults() //name and tooltip
-		{
-			DisplayName.SetDefault("End Stone Bow"); 
-			Tooltip.SetDefault("A powerful bow that allows the user to convert mana to damage by right clicking");
-		}
 
 		public override bool AltFunctionUse(Player player) //you can right click
 		{

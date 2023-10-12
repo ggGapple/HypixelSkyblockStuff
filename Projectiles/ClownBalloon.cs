@@ -10,10 +10,6 @@ namespace HypixelSkyblockStuff.Projectiles
     //corresponding color sprites
     public class ClownBalloon : ModProjectile
     {
-        public override void SetStaticDefaults() //name of projectile
-        {
-            DisplayName.SetDefault("Clown Balloon");
-        }
         public override void SetDefaults() //item data
         {
             Projectile.DamageType = DamageClass.Magic; //type of damage
@@ -45,13 +41,13 @@ namespace HypixelSkyblockStuff.Projectiles
             e.timeLeft = 0; //explode instantly
             return base.OnTileCollide(oldVelocity);
         }
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit) //if you hit npc
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            //spawn explosion
-            var e = Projectile.NewProjectileDirect(Projectile.GetSource_FromAI(), Projectile.position, new Vector2(0), 
+            var e = Projectile.NewProjectileDirect(Projectile.GetSource_FromAI(), Projectile.position, new Vector2(0),
                 ProjectileID.Grenade, 9, 3f, Main.myPlayer);
-            e.timeLeft = 0; //explode instantly
-            base.OnHitNPC(target, damage, knockback, crit);
+            e.timeLeft = 0;
+            base.OnHitNPC(target, hit, damageDone);
         }
     }
 }

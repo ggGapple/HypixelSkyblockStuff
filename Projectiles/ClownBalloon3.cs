@@ -8,10 +8,6 @@ namespace HypixelSkyblockStuff.Projectiles
     //see ClownBalloon.cs
     public class ClownBalloon3 : ModProjectile
     {
-        public override void SetStaticDefaults()
-        {
-            DisplayName.SetDefault("Clown Balloon");
-        }
         public override void SetDefaults()
         {
             Projectile.DamageType = DamageClass.Magic;
@@ -42,11 +38,12 @@ namespace HypixelSkyblockStuff.Projectiles
             e.timeLeft = 0;
             return base.OnTileCollide(oldVelocity);
         }
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            var e = Projectile.NewProjectileDirect(Projectile.GetSource_FromAI(), Projectile.position, new Vector2(0), ProjectileID.Grenade, 9, 3f, Main.myPlayer);
+            var e = Projectile.NewProjectileDirect(Projectile.GetSource_FromAI(), Projectile.position, new Vector2(0),
+                ProjectileID.Grenade, 9, 3f, Main.myPlayer);
             e.timeLeft = 0;
-            base.OnHitNPC(target, damage, knockback, crit);
+            base.OnHitNPC(target, hit, damageDone);
         }
     }
 }
